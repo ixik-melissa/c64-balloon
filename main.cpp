@@ -24,6 +24,7 @@ namespace
 
     auto jiffy_wait(std::uint8_t time_in_sixtieth)
     {
+        // https://llvm-mos.org/wiki/C_Inline_Assembly
         asm volatile (
             "  LDA #05\n"
             "  CLC\n"
