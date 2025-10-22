@@ -19,7 +19,7 @@ namespace
     {
         auto const screen_size = c64.screen_text_columns * c64.screen_text_rows;
         for (auto i = 0; i < screen_size; ++i)
-            *(c64.screen_base + i) = 32; // ASCII space
+            *(c64.screen_base + i) = 32; // PETSCII space
     }
 
     auto jiffy_wait(std::uint8_t time_in_sixtieth)
