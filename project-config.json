@@ -1,0 +1,18 @@
+{
+    "name": "balloon",
+    "description": "Balloon program Commodore 64 manual",
+    "toolkit": "llvm",
+    "machine": "c64",
+    "sources": [
+        "main.cpp"
+    ],
+    "build": "debug",
+    "definitions": [],
+    "includes": [],
+    "args": [],
+    "assemblerFlags": "",
+    "compilerFlags": "",
+    "linkerFlags": "",
+    "compiler": "",
+    "resources": {}
+}

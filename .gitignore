@@ -39,3 +39,11 @@
 
 # debug information files
 *.dwo
+
+# Ignore some VSCode stuff
+.vscode/c_cpp_properties.json
+.vscode/settings.json
+
+# C64 specifics
+build/
+*.prg
