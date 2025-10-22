@@ -1,7 +1,6 @@
 
 #include <cstdio>
 #include <cstdint>
-#include <array>
 
 namespace
 {
